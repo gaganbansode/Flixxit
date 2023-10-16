@@ -1,22 +1,6 @@
-.herosection {
-  width: 100%;
-  height: 100vh;
-  /* Full height */
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.movies-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.movies-row::-webkit-scrollbar {
-  display: none;
+.label,
+.hero__text h2,
+.hero__text a,
+.hero__text p {
+  opacity: 1;
 }
